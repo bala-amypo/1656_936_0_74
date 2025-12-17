@@ -15,7 +15,6 @@ public Studententity postdata(Studententity entity){
     //deleteById()
     //save()
     //existsById()
-    return student.save(stu);
+    return student.save(student);
 
-}
 }
