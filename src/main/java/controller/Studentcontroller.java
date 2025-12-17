@@ -1,2 +1,10 @@
 package com.example.demo.controller;
-import  org.springframework.web.bind.annotation.ResrtController
+import  org.springframework.web.bind.annotation.RestController;
+import org.springframework.beans.factory.Annotation.AutoWired;
+import com.example.demo.service.Studentservice;
+
+@RestController
+
+public class Studentcontroller{
+    @AutoWired Studentservice
+}
