@@ -8,6 +8,10 @@ public class Studentserviceimpl implements Studentservice{
 public Studententity postdata(Studententity entity){
     //findAll()
     //findById()
+    //deleteById()
+    //save()
+    //existsById()
+    return student.save(stu);
 
 }
 }
