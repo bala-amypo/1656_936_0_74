@@ -18,3 +18,4 @@ public Studententity postdata(Studententity entity){
     return student.save(student);
 
 }
+}
