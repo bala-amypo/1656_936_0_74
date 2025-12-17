@@ -1,6 +1,6 @@
 package com.example.demo.service;
 import com.example.demo.entity.Studententity;
-public Interface Studentservice{
+public interface Studentservice{
 Studententity postdata(Studententity entity);
 
 }
