@@ -6,5 +6,5 @@ import com.example.demo.service.Studentservice;
 @RestController
 
 public class Studentcontroller{
-    @AutoWired Studentservice
+    @AutoWired Studentservice ser;
 }
