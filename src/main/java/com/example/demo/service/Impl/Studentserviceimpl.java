@@ -4,6 +4,10 @@ import com.example.demo.entity.Studententity;
 import org.springframework.stereotype.Service;
 @Service
 public class Studentserviceimpl implements Studentservice{
-public Studententity postdata(Studententity entity);
 @AutoWired Studentrepository student;
+public Studententity postdata(Studententity entity){
+    //findAll()
+    //findById()
+
+}
 }
