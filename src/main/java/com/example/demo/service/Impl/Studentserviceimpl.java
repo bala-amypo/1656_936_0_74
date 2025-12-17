@@ -6,6 +6,8 @@ import org.springframework.beans.factory.Annotation.AutoWired;
 @Service
 public class Studentserviceimpl implements Studentservice{
 @AutoWired Studentrepository student;
+@Override
+
 public Studententity postdata(Studententity entity){
     //findAll()
     //findById()
