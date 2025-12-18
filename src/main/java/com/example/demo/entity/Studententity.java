@@ -8,16 +8,28 @@ import jakarta.persistence.GeneratedType;
 @Entity
 public class Studententity{
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy=GeneratedType.IDENTITY)
 private String Name;
 private Integer id;
 private String email;
 private String password;
-private Date createdat;
+private Date createdate;
 public Studententity(){}
 
-
-
+public Integer getId(){
+    return Id;
+}
+public String Name()
+{
+    return Name;
+}
+public String email(){
+    return email;
+}
+public String password(){
+    return password;
+}
+public Date 
 
 
 }
