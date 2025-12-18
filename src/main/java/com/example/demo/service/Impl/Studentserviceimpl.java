@@ -23,5 +23,12 @@ public Studententity postdata(Studententity entity){
 public List<Studententity>getAllData(){
     return student.findAll();
 }
-public Studententity
+@override
+public Studententity updateData(int id,Studententity entity){
+    if(student.exsistById(id)){
+        entity.setId(id);
+        return student.save(entity);
+    }
+    return null;
+}
 }
