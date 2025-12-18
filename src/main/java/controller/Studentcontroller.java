@@ -14,4 +14,5 @@ public class Studentcontroller{
     public Studententity postval(@RequestBody StudentEntity entity){
         return service.postdata(stu);
     }
+    @Get
 }

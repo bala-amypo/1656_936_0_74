@@ -1,7 +1,7 @@
 package com.example.demo.service;
 import com.example.demo.entity.Studententity;
 public interface Studentservice{
-Studententity postdata(Studententity entity);
+pblic Studententity postdata(Studententity entity);
 List<Studententity>getAlldata
 
 }
