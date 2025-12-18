@@ -58,22 +58,6 @@ public void setCreatedate(Date Createdate){
 public void setPassword(String Password){
     this.Password=password;
 }
-@Entity
-public class Validationentity{
-//id long//userName //email //password //age
-@Id
-@GeneratedValue(strategy=GenerationType.IDENTITY)
-private long id;
-@NotNull
-@size(min=2,max=30,message="must be 2 to 10 character")
-private String Username;
-@Email(message="Email is not valid")
-Private String  email;
-@NotNull(message="password is mandatory")
-private String password;
-@positive(message="Age must be positive")
-@Max(30)
-private int age;
 
 
 
