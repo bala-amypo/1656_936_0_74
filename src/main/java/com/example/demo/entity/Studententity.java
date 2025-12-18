@@ -19,26 +19,31 @@ public Studententity(){}
 public Integer getId(){
     return Id;
 }
-public String Name()
+public String getName()
 {
     return Name;
 }
-public String email(){
+public String getEmail(){
     return email;
 }
-public String password(){
+public String getPassword(){
     return password;
 }
-public Date createdate(){
+public Date getCreatedate(){
     return createdate;
 }
 
 public void setName(String Name){
     this.Name=Name;
 }
-public void SetId(Integer Id){
+public void setId(Integer Id){
     this.Id=Id;
 }
-public void s
+public void setEmail(String email){
+    this.email=email;
+}
+public void setCreatedate(Date Createdate){
+    this.
+}
 
 }
