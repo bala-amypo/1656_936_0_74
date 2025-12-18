@@ -14,5 +14,8 @@ public class Studentcontroller{
     public Studententity postval(@RequestBody StudentEntity entity){
         return service.postdata(stu);
     }
-    @Get
+    @GetMapping("/get")
+public List<StudentEntity>getval(){
+    return service.getAllData();
+}
 }

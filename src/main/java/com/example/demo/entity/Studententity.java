@@ -7,7 +7,8 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GeneratedType;
 @Entity
 public class Studententity{
-    
+    @Id
+    @GeneratedValue
 private String Name;
 private Integer id;
 private String email;
