@@ -59,7 +59,10 @@ public void setPassword(String Password){
     this.Password=password;
 } 
 public Valdationentity(long id,@NotNull@Size(min=2,max=10,message="must be 2 to 10 character"),String username,@Email(message="Email is not valid")String email,
-@Size(min=2,max=10,message="must be 2 to 10  character")@NotNull(message="Password i not null")St)
+@Size(min=2,max=10,message="must be 2 to 10  character")@NotNull(message="password is mandatory")
+private String password,@positive(message="Age must be positive")
+@Max(30)
+private int age)
 
 
 
