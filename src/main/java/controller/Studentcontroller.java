@@ -25,8 +25,12 @@ public List<Studententity>getAll(){
 }
 
 @DeleteMapping("/del/id")
-public AString DeleteData(@PathVariable int id){
+public String DeleteData(@PathVariable int id){
     return service.DeleteData(id);
+}
+@GetMapping("/getid/{id}")
+public studententity getdataid(@pathVariable int id){
+    return service.getData
 }
 
 @PutMapping("/put/id")
