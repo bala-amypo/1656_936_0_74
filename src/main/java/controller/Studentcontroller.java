@@ -30,10 +30,11 @@ public String DeleteData(@PathVariable int id){
 }
 @GetMapping("/getid/{id}")
 public studententity getdataid(@pathVariable int id){
-    return service.getData
+    return service.getData(id);
 }
 
 @PutMapping("/put/id")
 public Studententity putval(@Pathvariable int id,)
+return service.update(id,entity);
 
 }
