@@ -5,7 +5,10 @@ import jakarta.persistence.Id;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GeneratedType;
 import jakarta.validation.constraints.NotNull;
-i
+import jakarta.validation.constraints.size;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.Max;
+
 @Entity
 public class Validationentity{
 //id long//userName //email //password //age
