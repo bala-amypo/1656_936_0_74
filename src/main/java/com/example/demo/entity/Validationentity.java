@@ -7,4 +7,10 @@ import jakarta.persistence.GeneratedType;
 @Entity
 public class Validationentity{
 //id long//userName //email //password //age
+private long id;
+private String Username;
+Private String  email;
+private String password;
+private int age;
+
 }
