@@ -57,7 +57,8 @@ public void setCreatedate(Date Createdate){
 }
 public void setPassword(String Password){
     this.Password=password;
-}
+} 
+public Valdationentity(long id,@NotNull@Size(min=2,max=10,message="must be 2 to 10 character"),String username,@Email())
 
 
 
