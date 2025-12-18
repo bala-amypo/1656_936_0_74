@@ -16,9 +16,19 @@ public class Studentcontroller{
     }
     @GetMapping("/get")
 public List<StudentEntity>getval(){
-    return service                                                                                                                service.getAllData();
+    return service.Postdata(entity);                                                                                                                service.getAllData();
     
 }
+@GetMapping("/get")
+public List<Studententity>getAll(){
+    return service.getAllData();
+}
+
+@DeleteMapping("/del/id")
+public AString DeleteData(@PathVariable int id){
+    return service.DeleteData(id);
+}
+
 @PutMapping("/put/id")
 public Studententity putval(@Pathvariable int id,)
 
