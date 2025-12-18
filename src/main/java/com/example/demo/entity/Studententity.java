@@ -29,7 +29,16 @@ public String email(){
 public String password(){
     return password;
 }
-public Date 
+public Date createdate(){
+    return createdate;
+}
 
+public void setName(String Name){
+    this.Name=Name;
+}
+public void SetId(Integer Id){
+    this.Id=Id;
+}
+public void s
 
 }
