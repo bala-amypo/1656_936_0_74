@@ -23,4 +23,5 @@ public Studententity postdata(Studententity entity){
 public List<Studententity>getAllData(){
     return student.findAll();
 }
+public Studententity
 }
