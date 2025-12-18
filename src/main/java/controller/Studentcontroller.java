@@ -36,5 +36,5 @@ public studententity getdataid(@pathVariable int id){
 @PutMapping("/put/id")
 public Studententity putval(@Pathvariable int id,)
 return service.update(id,entity);
-
+                                                                                                                                                                                                                                                                            
 }
