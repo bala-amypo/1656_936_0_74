@@ -19,4 +19,5 @@ public List<StudentEntity>getval(){
     return service.getAllData();
     
 }
+
 }
