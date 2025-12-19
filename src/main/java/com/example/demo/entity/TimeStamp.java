@@ -15,5 +15,11 @@ import java.time.LocalDate;
 @NoArgsConstructor
 public class Studententity{
     @Id
-    private Long id
+    private Long id;
+    Private String name;
+    private String email;
+    private LocalDate createdat;
+    Private LocalDate updatedat;
+
+    
 }
