@@ -13,4 +13,5 @@ public class Timestampserviceimpl implements Timestampservice{
     public Timestamp posttime (Timestamp stu){
         return student.save(stu);
     }
+    
 }
