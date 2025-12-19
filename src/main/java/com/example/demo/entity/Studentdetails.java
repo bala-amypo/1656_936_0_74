@@ -9,4 +9,11 @@ import lombok.Data;
 @data
 @AllArgsConstructor
 @No ArgsConstructor
-public class 
+public class Studentdetails{
+    @Id
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    private Integer id;
+    private String name;
+    private String Address;
+    private  
+}
