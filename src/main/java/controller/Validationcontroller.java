@@ -7,6 +7,9 @@ import org.springframework.factory.Annotation.PostMapping;
 @Rest
 public class Validationcontroller{
 @Autowired Validationservice service;
-@Post
+@PostMapping("/validpost")
+public ValidationEntity postval(@ Valid @RequestBody ValidationEntity entity){
+    return service.postdata(entity)
+}
 
 }
