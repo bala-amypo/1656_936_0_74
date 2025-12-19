@@ -64,7 +64,8 @@ private String password,@positive(message="Age must be positive")
 @Max(30)
 private int age)
 @override
-public Validationentity getStudentById(I)
+
+public Validationentity getStudentById(Integer id)
 
 
 }
