@@ -13,5 +13,6 @@ public class studentcard{
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Integer id;
-    
+    private String CollegeName;
+    private String Department;
 }
