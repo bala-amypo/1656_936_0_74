@@ -15,4 +15,7 @@ public class studentcard{
     private Integer id;
     private String CollegeName;
     private String Department;
+
+    @OneToOne
+    @Join
 }
