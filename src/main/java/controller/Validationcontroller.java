@@ -6,6 +6,7 @@ import org.springframework.factory.Annotation.PostMapping;
 
 @Rest
 public class Validationcontroller{
-
+@Autowired Validationservice service;
+@Post
 
 }
