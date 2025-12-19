@@ -63,7 +63,7 @@ public Valdationentity(long id,@NotNull@Size(min=2,max=10,message="must be 2 to 
 private String password,@positive(message="Age must be positive")
 @Max(30)
 private int age)
-
+@override
 
 
 }
