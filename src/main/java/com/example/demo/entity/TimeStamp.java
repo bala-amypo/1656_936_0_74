@@ -27,6 +27,7 @@ public void  oncreate(){
     this.updatedat=now;
 }
 public void onupdate(){
-    
+    LocalDateTime now= LocalDateTime.now();
+    this.updateat =now;
 }
 }
