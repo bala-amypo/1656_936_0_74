@@ -11,6 +11,6 @@ public class Timestampserviceimpl implements Timestampservice{
     @Autowired TimeStamprepository student;
     @override
     public Timestamp posttime (Timestamp stu){
-        return student.save(stu)
+        return student.save(stu);
     }
 }
