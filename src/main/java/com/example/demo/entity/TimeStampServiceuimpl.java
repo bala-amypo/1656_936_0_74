@@ -10,5 +10,7 @@ import org.springframe.beans.factory.annotation.Autowired;
 public class Timestampserviceimpl implements Timestampservice{
     @Autowired TimeStamprepository student;
     @override
-    public Timestamp posttime 
+    public Timestamp posttime (Timestamp stu){
+        return student.save(stu)
+    }
 }
