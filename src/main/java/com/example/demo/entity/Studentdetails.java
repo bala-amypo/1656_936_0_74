@@ -15,5 +15,5 @@ public class Studentdetails{
     private Integer id;
     private String name;
     private String Address;
-    private  
+    private string email;    
 }
