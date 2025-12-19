@@ -3,4 +3,9 @@ import com.example.demo.service.Timestampservice;
 import org.springframework.stereotype.service;
 import com.example.demo.repository.Timestamprepository;
 import com.example.demo.entity.Timestamp;
-import org.springframework.beans.
+import org.springframework.beans.factory.annotation.Autowired;
+
+@Service
+public class Timestqampserviceimpl implements{
+    @Autowired Timestamp
+}
