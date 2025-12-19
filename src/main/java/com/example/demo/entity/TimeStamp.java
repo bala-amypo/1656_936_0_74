@@ -20,6 +20,9 @@ public class TimeStamp{
     private String email;
     private LocalDate createdat;
     Private LocalDate updatedat;
-
-
+@PrePersist
+protected void  oncreate(){
+    LocalDateTime now=LocalDateTime.now();
+    
+}
 }
