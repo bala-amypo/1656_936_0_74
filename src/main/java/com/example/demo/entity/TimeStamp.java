@@ -7,4 +7,13 @@ import jakarta.persistence.Id;
 import lombok.Data;
 import jakarta.AllArgsConstructor;
 import lombok.NoArgsConstructor;
-import java.time
+import java.time.LocalDate;
+
+@Entity
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class Studententity{
+    @Id
+    private Long id
+}
