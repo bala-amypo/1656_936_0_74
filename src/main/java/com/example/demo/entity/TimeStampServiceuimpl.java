@@ -7,4 +7,7 @@ import com.example.demo.entity.Timestamp;
 import org.springframe.beans.factory.annotation.Autowired;
 
 @Service
-public class Timestamp
+public class Timestampserviceimpl implements Timestampservice{
+    @Autowired TimeStamprepository student;
+    @
+}
