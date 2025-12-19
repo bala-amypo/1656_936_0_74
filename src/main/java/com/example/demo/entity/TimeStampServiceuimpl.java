@@ -9,5 +9,6 @@ import org.springframe.beans.factory.annotation.Autowired;
 @Service
 public class Timestampserviceimpl implements Timestampservice{
     @Autowired TimeStamprepository student;
-    @
+    @override
+    public Timestamp posttime 
 }
