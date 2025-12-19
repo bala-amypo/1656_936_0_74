@@ -13,7 +13,7 @@ import java.time.LocalDate;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Studententity{
+public class TimeStamp{
     @Id
     private Long id;
     Private String name;
@@ -21,5 +21,5 @@ public class Studententity{
     private LocalDate createdat;
     Private LocalDate updatedat;
 
-    
+
 }
