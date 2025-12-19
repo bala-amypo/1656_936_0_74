@@ -17,5 +17,6 @@ public class studentcard{
     private String Department;
 
     @OneToOne
-    @Join
+    @JoinColumn(name="student_id")
+    private studentdetails student;
 }
