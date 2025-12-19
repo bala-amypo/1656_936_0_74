@@ -26,6 +26,7 @@ public void  oncreate(){
     this.createdat=now;
     this.updatedat=now;
 }
+@preupdate
 public void onupdate(){
     LocalDateTime now= LocalDateTime.now();
     this.updateat =now;
