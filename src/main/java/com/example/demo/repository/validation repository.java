@@ -7,5 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 @Service
 public class Timestqampserviceimpl implements{
-    @Autowired Timestamp
+    @Autowired Timestamprepository student;
+    @override
+    public Timestamprepository posttime(Timestamp){
+        return student.save(stu);
+    }
 }
