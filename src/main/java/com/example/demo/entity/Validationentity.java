@@ -65,7 +65,9 @@ private String password,@positive(message="Age must be positive")
 private int age)
 @override
 
-public Validationentity getStudentById(Integer id)
+public Validationentity getStudentById(Integer id){
+    return repo.save(student);
+}
 
 
 }
