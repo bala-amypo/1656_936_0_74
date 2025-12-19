@@ -5,4 +5,9 @@ import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
 
-@RestControler
+@RestController
+public class Timestampcontroller{
+    @Autowired Timestampservice service;
+    @postMapping("/timepost")
+    public Times5tamp posttimed(@)
+}
