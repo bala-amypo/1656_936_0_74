@@ -9,7 +9,11 @@ public class Validationcontroller{
 @Autowired Validationservice service;
 @PostMapping("/validpost")
 public ValidationEntity postval(@ Valid @RequestBody ValidationEntity entity){
-    return service.postdata(entity)
+    return service.postdata(entity);
+}
+@GetMapping("/validid{id}") 
+public ValidationEntity getdataid(@PathVariable long id){
+    return service.getData(id);
 }
 
 }
