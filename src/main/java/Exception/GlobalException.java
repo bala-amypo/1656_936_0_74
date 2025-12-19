@@ -1,9 +1,10 @@
 package.com.example.demo.exception;
+import org.springframework.web.bind.annotation.RestC
 @RestControllerAdvice
 public class GlobalException{
     @ExceptionHandler(FValidationException.class)
 
     public RespondEntity<String>handleValidationException(ValidationException ex){
-        return new ResponseEntity<String>
+        return new ResponseEntity<String>(ex.message(),HttpStatus.BAD_GATEWAY);
     }
 }
